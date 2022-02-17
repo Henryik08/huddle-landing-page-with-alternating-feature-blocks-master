@@ -38,6 +38,9 @@ header{
     padding-top: 20px;
     padding-right:40px ;
 }
+.box{
+    margin: auto;
+}
 #buildtext{
     padding-top: 70px;
     padding-left: 40px;
