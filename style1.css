@@ -1,4 +1,5 @@
-.box{
+
+.headerbox{
     width: 100%;
     height: 650px;
     background-image: url("./images/bg-hero-desktop.svg");
@@ -26,18 +27,18 @@ header{
 #but1:hover{
     color: hsl(208, 11%, 55%);
 }
-.sec1{
+.headsection{
     display: flex;
     justify-content: space-between;
 }
-#mock{
+#mockups{
 
     width: 50%;
     height: 500px;
     padding-top: 20px;
     padding-right:40px ;
 }
-#a{
+#buildtext{
     padding-top: 70px;
     padding-left: 40px;
     font-size: 18px;
@@ -46,7 +47,7 @@ header{
     font-weight: 600;
     font-family: "poppins";
 }
-.p{
+.paragraph{
     font-weight: 400; 
     font-family: "Open Sans";
 }
@@ -65,14 +66,8 @@ header{
 #but2:hover{
     background-color:  hsl(322, 86%, 85%);
 }
-.b{
-    margin-top: 100px;
-    padding-left: 70px;
-    padding-right: 70px;
-    font-size: 18px;
-    size: 20px;
-}
-.sec2{
+
+.box2section{
     display: flex;
     justify-content: space-between;
     width:1100px;
@@ -82,8 +77,15 @@ header{
     border-radius: 20px;
     box-shadow: 0px -5px 15px  hsl(210, 4%, 90%);  
 }
+.text{
+    margin-top: 100px;
+    padding-left: 70px;
+    padding-right: 70px;
+    font-size: 18px;
+    size: 20px;
+}
 
-.pic{
+.picture{
     width: 250px;
     height: 250px;
     padding-top: 70px;
@@ -91,12 +93,13 @@ header{
     margin-left:80px ;
 }
 
-.foot{
+.footer{
     background-color:  hsl(192, 100%, 9%);
     height: 500px;
     position: relative;
+    margin-top: 200px;
 }
-#sec3{
+#footsection{
     background-color: rgb(255, 255, 255);
     height:160px ;
     width: 600px;
@@ -117,7 +120,7 @@ header{
     color:  hsl(193, 100%, 96%);
     font-weight: 600;
     border: hsl(322, 100%, 66%);
-    box-shadow: 0px 5px 15px rgb(216, 216, 216);  
+      
 }
 #but3:hover{
     background-color:  hsl(322, 86%, 85%);
